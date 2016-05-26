@@ -11,11 +11,11 @@ endif
 let colors_name = 'disciple'
 
 if &t_Co >= 256 || has('gui_running')
-  hi Normal           ctermbg=253  ctermfg=238  guibg=#dadada guifg=#444444 cterm=NONE           gui=NONE
+  hi Normal           ctermbg=255  ctermfg=238  guibg=#eeeeee guifg=#444444 cterm=NONE           gui=NONE
 
   set background=light
 
-  hi Comment          ctermbg=NONE ctermfg=248  guibg=NONE    guifg=#a8a8a8 cterm=NONE           gui=NONE
+  hi Comment          ctermbg=NONE ctermfg=246  guibg=NONE    guifg=#949494 cterm=NONE           gui=NONE
   hi Constant         ctermbg=NONE ctermfg=32   guibg=NONE    guifg=#0087d7 cterm=NONE           gui=NONE
   hi Error            ctermbg=73   ctermfg=238  guibg=#5fafaf guifg=#444444 cterm=NONE           gui=NONE
   hi Identifier       ctermbg=NONE ctermfg=101  guibg=NONE    guifg=#87875f cterm=NONE           gui=NONE
@@ -47,7 +47,7 @@ if &t_Co >= 256 || has('gui_running')
   hi TabLineSel       ctermbg=252  ctermfg=131  guibg=#d0d0d0 guifg=#af5f5f cterm=NONE           gui=NONE
 
   hi Cursor           ctermbg=246  ctermfg=NONE guibg=#949494 guifg=NONE    cterm=NONE           gui=NONE
-  hi CursorLine       ctermbg=252  ctermfg=NONE guibg=#d0d0d0 guifg=NONE    cterm=NONE           gui=NONE
+  hi CursorLine       ctermbg=254  ctermfg=NONE guibg=#e4e4e4 guifg=NONE    cterm=NONE           gui=NONE
   hi CursorLineNr     ctermbg=252  ctermfg=131  guibg=#d0d0d0 guifg=#af5f5f cterm=NONE           gui=NONE
 
   hi helpLeadBlank    ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
@@ -75,7 +75,7 @@ if &t_Co >= 256 || has('gui_running')
   hi DiffText         ctermbg=101  ctermfg=253  guibg=#87875f guifg=#dadada cterm=NONE           gui=NONE
 
   hi IncSearch        ctermbg=73   ctermfg=253  guibg=#5fafaf guifg=#dadada cterm=NONE           gui=NONE
-  hi Search           ctermbg=96   ctermfg=253  guibg=#875f87 guifg=#dadada cterm=NONE           gui=NONE
+  hi Search           ctermbg=228  ctermfg=0    guibg=#FFFA8C guifg=#000000 cterm=NONE           gui=NONE
 
   hi Directory        ctermbg=NONE ctermfg=131  guibg=NONE    guifg=#af5f5f cterm=NONE           gui=NONE
   hi MatchParen       ctermbg=NONE ctermfg=229  guibg=NONE    guifg=#ffffaf cterm=bold           gui=NONE
