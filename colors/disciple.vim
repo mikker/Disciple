@@ -60,7 +60,7 @@ if &t_Co >= 256 || has('gui_running')
   hi VisualNOS        ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=bold,underline gui=bold,underline
 
   hi FoldColumn       ctermbg=248  ctermfg=238  guibg=#a8a8a8 guifg=#444444 cterm=NONE           gui=NONE
-  hi Folded           ctermbg=248  ctermfg=238  guibg=#a8a8a8 guifg=#444444 cterm=NONE           gui=NONE
+  hi Folded           ctermbg=252  ctermfg=238  guibg=#d0d0d0 guifg=#444444 cterm=NONE           gui=NONE
 
   hi VertSplit        ctermbg=246  ctermfg=246  guibg=#949494 guifg=#949494 cterm=NONE           gui=NONE
   hi WildMenu         ctermbg=95   ctermfg=253  guibg=#875f5f guifg=#dadada cterm=bold           gui=bold
@@ -85,7 +85,7 @@ if &t_Co >= 256 || has('gui_running')
   hi SpellLocal       ctermbg=NONE ctermfg=139  guibg=NONE    guifg=NONE    cterm=undercurl      gui=undercurl guisp=#af87af
   hi SpellRare        ctermbg=NONE ctermfg=208  guibg=NONE    guifg=NONE    cterm=undercurl      gui=undercurl guisp=#ff8700
 
-  hi ColorColumn      ctermbg=73   ctermfg=NONE guibg=#5fafaf guifg=NONE    cterm=NONE           gui=NONE
+  hi ColorColumn      ctermbg=217   ctermfg=NONE guibg=#ffafaf guifg=NONE    cterm=NONE           gui=NONE
   hi SignColumn       ctermbg=250  ctermfg=253  guibg=#bcbcbc guifg=#dadada cterm=NONE           gui=NONE
 
 else
